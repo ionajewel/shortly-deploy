@@ -1,3 +1,4 @@
+//This is Iona's config file
 var express = require('express');
 var partials = require('express-partials');
 var bodyParser = require('body-parser');
