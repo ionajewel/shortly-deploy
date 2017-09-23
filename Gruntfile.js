@@ -40,13 +40,12 @@ module.exports = function(grunt) {
 
     eslint: {
       target: [
-        // Add list of files to lint here
-        // gruntfile
-        // js files in app
-        // js files in public
-        // js files in lib
-        // any other js files in the directory
-        // js file in specrunner
+        'Gruntfile.js',
+        'app/**/*.js',
+        'public/**/*.js',
+        'lib/**/*.js',
+        './*.js',
+        'spec/**/*.js'
       ]
     },
 
