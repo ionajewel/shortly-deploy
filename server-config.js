@@ -1,4 +1,3 @@
-// I just typed this comment
 var express = require('express');
 var partials = require('express-partials');
 var bodyParser = require('body-parser');
@@ -18,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 app.use(cookieParser('shhhh, very secret'));
 app.use(session({
-  secret: 'shhh, it\'s a secret',
+  secret: 'shhh, it is a secret',
   resave: false,
   saveUninitialized: true
 }));
